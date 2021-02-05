@@ -1,0 +1,59 @@
+
+
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+}
+  
+.right {
+    width: 24%;
+    text-align: center;
+}
+.left {
+    width: 26%;
+    text-align: center;
+}
+
+.middle {
+    width: 50%;
+    text-align: center;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    padding: 25px;
+    text-align: center;
+    color: chartreuse;
+    background-color: black;
+    border:25px;
+    margin: 0px;
+}
+
+body {
+    font-family: Arial;
+}
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#playoffHeader {
+    font-weight: bold;
+    background-color: white;
+}
+.playoffData {
+    background-color: yellow;
+    font-weight: 250;
+}
+img {
+    height: 250px;
+    border: 5px solid black;
+}
