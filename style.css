@@ -1,0 +1,50 @@
+
+
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+}
+  
+.right {
+    width: 24%;
+    text-align: center;
+}
+.left {
+    width: 26%;
+    text-align: center;
+}
+
+.middle {
+    width: 50%;
+    text-align: center;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    text-align: center;
+    color: chartreuse;
+}
+
+body {
+    font-family: Arial;
+}
+table, th, td {
+    border: 1px solid black;
+    background-color: black;
+    text-align: center;
+}
+
+#playoffHeader {
+    font-weight: bold;
+    background-color: white;
+}
+.playoffData {
+    background-color: yellow;
+    font-weight: 500;
+}
